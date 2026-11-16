@@ -1,13 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* =========================================
+   1. FONT DECLARATIONS & CSS VARIABLES
+   ========================================= */
 
 @font-face {
     font-family: 'Nunito';
     src: url(../fonts/Nunito-VariableFont_wght.ttf) format('truetype');
-    font-weight: 200;
+    font-weight: 200 900;
     font-style: normal;
 }
 
@@ -18,12 +16,209 @@
     font-style: normal;
 }
 
+/* =========================================
+   2. BASE / DEFAULT STYLES
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    background-color: #EED620;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
+    color: #04600C;
 }
+
+
+
+/* =========================================
+   3. REUSABLE COMPONENTS
+   ========================================= */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    height: 100%;
+}
+
+p {
+    color: #32352C;
+}
+
+/* =========================================
+   4. PAGE SECTIONS (TOP TO BOTTOM)
+   ========================================= */
+
+.website {
+    box-shadow: 0 0 6px #000;
+}
+
+/* --- Logo --- */
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0;
+    z-index: 100;
+
+    width: 20%;
+    height: auto;
+}
+
+/* --- Banner --- */
+/* .slider {
+    margin-top: -3%;
+} */
+
+.slider img {
+    height: 745px;
+}
+
+
+
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+    top: 50%;
+}
+
+.carousel-caption h2 {
+    color: #EED620;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.carousel-caption p {
+    color: #fff;
+    margin: 4% 0;
+    font-size: 26px;
+}
+
+.carousel-caption a {
+    display: inline-block;
+    border: 2px solid #EED620;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+
+.carousel-caption span {
+    color: #EED620;
+    font-size: 20px;
+}
+
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 3;
+}
+
+/* ---Navbar --- */
+.navbar {
+    padding: 0 0 5px 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #04600C;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    padding: 20px;
+}
+
+.main-menu li:hover{
+    background-color: #EED620;
+}
+
+.navbar .main-menu>li>a {
+    display: block;
+    color: #EED620;
+}
+
+.navbar .main-menu>li:hover>a{
+    color: #04600C;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    width: 120%;
+    background-color: #fff;
+}
+
+.main-menu li:hover>.sub-menu{
+    display: block;
+}
+
+.sub-menu li:hover{
+    background-color: #EED620;
+}
+
+.navbar .sub-menu>li>a {
+    display: block;
+    color: #000;
+}
+
+.navbar .sub-menu>li:hover>a{
+    color: #04600C;
+}
+
+/* --- Content Sections --- */
+
+/* --- Footer --- */
+
+/* =========================================
+   5. RESPONSIVE (MOBILE / TABLET OVERRIDES)
+   ========================================= */
+
+@media (max-width: 768px) {}
