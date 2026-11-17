@@ -224,6 +224,14 @@ nav {
     color: #04600C;
 }
 
+.main-menu li.active {
+    background-color: #EED620;
+}
+
+.main-menu li.active>a {
+    color: #04600C;
+}
+
 /* --- Content Sections --- */
 
 /* Introduction */
@@ -661,6 +669,7 @@ footer .right-bottom button {
 
     cursor: pointer;
 }
+
 
 /* =========================================
    5. RESPONSIVE (MOBILE / TABLET OVERRIDES)
