@@ -772,4 +772,28 @@ footer .right-bottom button {
     .chef-card {
         margin: 10px;
     }
+
+    /* Food Lovers */
+
+    .food-lovers {
+        background-color: #EBEDAB;
+    }
+
+    .avatar {
+        margin-bottom: 30px;
+    }
+
+    .food-lovers .slider {
+        padding: 0px 1%;
+    }
+
+    .food-lovers .slider .box {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .food-lovers .info h3 {
+        font-size: 30px;
+    }
+
 }
