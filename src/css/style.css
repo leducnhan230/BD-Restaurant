@@ -74,7 +74,7 @@ p {
 }
 
 article {
-    background-color: #EFECEF;
+    background-color: #E8EAE8;
 }
 
 h2 {
@@ -313,7 +313,7 @@ nav {
 .reservation .input-area i {
     width: 40%;
     height: 100%;
-    background-color: #D7DDE9;
+    background-color: #E8EAE8;
     border-left: 1px solid #C4C7D4;
 
     display: flex;
@@ -361,7 +361,7 @@ nav {
 .seasonal-card {
     border-radius: 5px;
     overflow: hidden;
-    background-color: #EFECEF;
+    background-color: #E8EAE8;
 }
 
 .seasonal-card form {
@@ -369,17 +369,17 @@ nav {
     text-align: center;
 }
 
-.seasonal-card form h3{
+.seasonal-card form h3 {
     text-transform: uppercase;
     font-size: 19px;
     font-weight: 800;
 }
 
-.seasonal-card form .price{
+.seasonal-card form .price {
     font-weight: bold;
 }
 
-.seasonal-card form p{
+.seasonal-card form p {
     font-size: 18px;
     margin: 10px 0;
 }
@@ -398,6 +398,55 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Meet Our Chef */
+.chef-info {
+    background-color: #E8EAE8;
+}
+
+.chef-info .chef-card {
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.chef-info .info {
+    padding: 20px;
+}
+
+.chef-info h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.chef-info .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.chef-info .icons a{
+    margin-right: 5px;
+}
+
+.chef-info .icons a:last-child{
+    margin-right: 0;
+}
+
+.chef-info .icons i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #EED620;
+    background-color: #04600C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chef-info .icons i:last-child {
+    margin-right: 0;
 }
 
 /* --- Footer --- */
