@@ -675,4 +675,33 @@ footer .right-bottom button {
    5. RESPONSIVE (MOBILE / TABLET OVERRIDES)
    ========================================= */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .container-lg {
+        padding: 0;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+
+    /* --- Header --- */
+    header .logo {
+        width: 43%;
+    }
+
+    header .carousel-caption h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    header .carousel-caption p {
+        margin: 10% 0;
+        font-size: 18px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
