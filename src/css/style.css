@@ -681,7 +681,7 @@ footer .right-bottom button {
     }
 
     section {
-        padding: 50px 20px;
+        padding: 50px 10px;
     }
 
 
@@ -702,6 +702,24 @@ footer .right-bottom button {
 
     .navbar {
         display: none;
+    }
+
+    /* --- Introduction --- */
+    .description {
+        text-align: center;
+    }
+
+    .intro-img{
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .description .col-md-6{
+        padding: 0;
+        margin-bottom: 30px;
     }
 
 }
