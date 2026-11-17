@@ -42,7 +42,14 @@ h6 {
     color: #04600C;
 }
 
+main {
+    background-color: #fff;
+}
 
+
+section {
+    padding: 50px 30px;
+}
 
 /* =========================================
    3. REUSABLE COMPONENTS
@@ -64,6 +71,10 @@ li {
 
 p {
     color: #32352C;
+}
+
+article {
+    background-color: #EFECEF;
 }
 
 /* =========================================
@@ -96,9 +107,6 @@ p {
 .slider img {
     height: 745px;
 }
-
-
-
 
 .carousel-item::after {
     content: "";
@@ -169,7 +177,7 @@ nav {
     padding: 20px;
 }
 
-.main-menu li:hover{
+.main-menu li:hover {
     background-color: #EED620;
 }
 
@@ -178,7 +186,7 @@ nav {
     color: #EED620;
 }
 
-.navbar .main-menu>li:hover>a{
+.navbar .main-menu>li:hover>a {
     color: #04600C;
 }
 
@@ -196,11 +204,11 @@ nav {
     background-color: #fff;
 }
 
-.main-menu li:hover>.sub-menu{
+.main-menu li:hover>.sub-menu {
     display: block;
 }
 
-.sub-menu li:hover{
+.sub-menu li:hover {
     background-color: #EED620;
 }
 
@@ -209,11 +217,71 @@ nav {
     color: #000;
 }
 
-.navbar .sub-menu>li:hover>a{
+.navbar .sub-menu>li:hover>a {
     color: #04600C;
 }
 
 /* --- Content Sections --- */
+
+/* Introduction */
+.intro-img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.description {
+    margin: 0 15px;
+    padding: 10px 0;
+}
+
+.description h2 {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.description>p {
+    font-size: larger;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #EED620;
+    background-color: #04600C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.icons i:first-child {
+    margin-left: 0;
+}
+
+.icons i:last-child {
+    margin-right: 0;
+}
+
+article {
+    padding: 30px;
+    border-radius: 5px;
+}
+
+article h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.description article>p {
+    font-size: large;
+}
+
 
 /* --- Footer --- */
 
