@@ -91,8 +91,7 @@ h2 {
 }
 
 /* --- Logo --- */
-
-.logo {
+header .logo {
     position: absolute;
     top: 40px;
     left: 50%;
@@ -105,15 +104,11 @@ h2 {
 }
 
 /* --- Banner --- */
-/* .slider {
-    margin-top: -3%;
-} */
-
-.slider img {
+header .slider img {
     height: 745px;
 }
 
-.carousel-item::after {
+header .carousel-item::after {
     content: "";
     position: absolute;
     top: 0;
@@ -125,37 +120,37 @@ h2 {
     z-index: 1;
 }
 
-.carousel-caption {
+header .carousel-caption {
     z-index: 2;
     top: 50%;
 }
 
-.carousel-caption h2 {
+header .carousel-caption h2 {
     color: #EED620;
     font-size: 70px;
 }
 
-.carousel-caption p {
+header .carousel-caption p {
     color: #fff;
     margin: 4% 0;
     font-size: 26px;
 }
 
-.carousel-caption a {
+header .carousel-caption a {
     display: inline-block;
     border: 2px solid #EED620;
     padding: 10px 50px;
     border-radius: 50px;
 }
 
-.carousel-caption span {
+header .carousel-caption span {
     color: #EED620;
     font-size: 20px;
 }
 
-.carousel-indicators,
-.carousel-control-prev,
-.carousel-control-next {
+header .carousel-indicators,
+header .carousel-control-prev,
+header .carousel-control-next {
     z-index: 3;
 }
 
@@ -452,6 +447,66 @@ nav {
 
 .chef-info .icons i:last-child {
     margin-right: 0;
+}
+
+/* Our Food Lovers */
+.food-lovers .slider {
+    padding: 0 15%;
+}
+
+.food-lovers .slider .avatar {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.food-lovers .slider .box {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #E8EAE8;
+    border-radius: 5px;
+
+
+    display: flex;
+    align-items: center;
+}
+
+.food-lovers .info h3 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.food-lovers .info .role {
+    font-weight: bold;
+    display: block;
+}
+
+.food-lovers .info i {
+    color: #04600C;
+}
+
+.food-lovers .info .text {
+    display: inline;
+    font-style: italic;
+}
+
+.food-lovers .carousel-indicators {
+    position: static;
+    margin: 30px;
+}
+
+.food-lovers .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #04600C;
+    margin: 0 6px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.food-lovers .carousel-indicators .active {
+    background-color: #f8d210;
 }
 
 /* --- Footer --- */
