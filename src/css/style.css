@@ -805,7 +805,31 @@ footer .right-bottom button {
         text-align: center;
     }
 
-    .contact button{
+    .contact button {
         width: 100%;
+    }
+
+    /* footer */
+    footer .top-footer h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    footer .left-bottom {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    footer .left-bottom p {
+        font-size: 15px;
+    }
+
+    footer .right-bottom .box {
+        width: 80%;
+    }
+
+    footer .right-bottom span {
+        font-weight: normal;
+        font-size: 20px;
     }
 }
