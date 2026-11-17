@@ -698,6 +698,7 @@ footer .right-bottom button {
 
     h2 {
         font-size: 40px;
+        margin-bottom: 30px;
     }
 
 
@@ -707,7 +708,6 @@ footer .right-bottom button {
     }
 
     header .carousel-caption h2 {
-        font-size: 40px;
         font-weight: 700;
     }
 
@@ -724,7 +724,7 @@ footer .right-bottom button {
     .introduction {
         padding-bottom: 25px;
     }
-    
+
     .description {
         text-align: center;
     }
@@ -760,6 +760,14 @@ footer .right-bottom button {
     }
 
     /* Seasonal */
+    .seasonal-card {
+        margin: 10px;
+    }
 
+    .seasonal-card button {
+        width: 40%;
+    }
+
+    /* Chef Information */
 
 }
