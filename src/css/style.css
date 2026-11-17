@@ -39,7 +39,7 @@ h5,
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
-    color: #04600C;
+    color: #075906;
 }
 
 main {
@@ -70,11 +70,16 @@ li {
 }
 
 p {
-    color: #32352C;
+    color: #757877;
 }
 
 article {
     background-color: #EFECEF;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 900;
 }
 
 /* =========================================
@@ -128,7 +133,6 @@ article {
 .carousel-caption h2 {
     color: #EED620;
     font-size: 70px;
-    font-weight: 900;
 }
 
 .carousel-caption p {
@@ -224,30 +228,25 @@ nav {
 /* --- Content Sections --- */
 
 /* Introduction */
-.intro-img {
+.introduction .intro-img {
     border-radius: 5px;
     overflow: hidden;
 }
 
-.description {
+.introduction .description {
     margin: 0 15px;
     padding: 10px 0;
 }
 
-.description h2 {
-    font-weight: 900;
-    font-size: 45px;
-}
-
-.description>p {
+.introduction .description>p {
     font-size: larger;
 }
 
-.icons {
+.introduction .icons {
     display: flex;
 }
 
-.icons i {
+.introduction .icons i {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -260,40 +259,31 @@ nav {
     margin: 0 5px;
 }
 
-.icons i:first-child {
+.introduction .icons i:first-child {
     margin-left: 0;
 }
 
-.icons i:last-child {
+.introduction .icons i:last-child {
     margin-right: 0;
 }
 
-article {
+.introduction article {
     padding: 30px;
     border-radius: 5px;
 }
 
-article h3 {
+.introduction article h3 {
     font-weight: 800;
     font-size: 30px;
 }
 
-.description article>p {
+.introduction .description article>p {
     font-size: large;
 }
 
 /* Reservations */
 
-.reservation {
-    text-align: center;
-}
-
-.reservation h2 {
-    font-size: 45px;
-    font-weight: 900;
-}
-
-form {
+.reservation form {
     display: flex;
     justify-content: center;
 
@@ -357,7 +347,7 @@ form {
     width: 100%;
     height: 100%;
     border-radius: 50px;
-    
+
     background-color: #04600C;
     color: #EED620;
 
@@ -366,7 +356,49 @@ form {
     align-items: center;
 }
 
-.reservation .bt-submit button {}
+/* Seasonal */
+
+.seasonal-card {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #EFECEF;
+}
+
+.seasonal-card form {
+    padding: 20px;
+    text-align: center;
+}
+
+.seasonal-card form h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.seasonal-card form .price{
+    font-weight: bold;
+}
+
+.seasonal-card form p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.seasonal-card button {
+    outline: none;
+    border: none;
+    width: 60%;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 auto;
+
+    background-color: #04600C;
+    color: #EED620;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* --- Footer --- */
 
