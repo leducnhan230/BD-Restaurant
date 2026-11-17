@@ -509,6 +509,71 @@ nav {
     background-color: #f8d210;
 }
 
+/* Contact */
+.contact .info {
+    background-color: #04600C;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+
+.contact .top-info h3,
+.bottom-info h3 {
+    color: #EED620;
+}
+
+.contact .top-info p,
+.bottom-info p {
+    color: #fff;
+}
+
+.contact .top-info::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px dotted #EED620;
+
+    margin: 20px 0;
+}
+
+.contact .form {
+    height: 100%;
+    padding: 30px 10px;
+    background-color: #EED620;
+    border-radius: 5px;
+}
+
+.contact .form input,
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #EBEDAB;
+    padding: 5px 20px;
+}
+
+.contact .form textarea {
+    height: 170px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.contact button {
+    outline: none;
+    border: none;
+    width: 28%;
+    height: 100%;
+    border-radius: 50px;
+    padding: 10px;
+
+    background-color: #04600C;
+    color: #EED620;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* --- Footer --- */
 
 /* =========================================
