@@ -760,6 +760,11 @@ footer .right-bottom button {
     }
 
     /* Seasonal */
+
+    .seasonal-card form {
+        padding: 30px 20px;
+    }
+
     .seasonal-card {
         margin: 10px;
     }
