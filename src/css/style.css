@@ -769,5 +769,7 @@ footer .right-bottom button {
     }
 
     /* Chef Information */
-
+    .chef-card {
+        margin: 10px;
+    }
 }
