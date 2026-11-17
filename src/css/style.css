@@ -82,6 +82,10 @@ h2 {
     font-weight: 900;
 }
 
+span {
+    font-weight: bold;
+}
+
 /* =========================================
    4. PAGE SECTIONS (TOP TO BOTTOM)
    ========================================= */
@@ -575,6 +579,88 @@ textarea {
 }
 
 /* --- Footer --- */
+footer .top-footer {
+    background-color: #EED620;
+    padding: 30px;
+}
+
+footer .top-footer h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+footer .bottom-footer {
+    background-color: #04600C;
+    padding: 30px;
+}
+
+footer .left-bottom {
+    padding: 0 20%;
+    text-align: center;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .left-bottom p {
+    color: #EED620;
+    font-size: 13px;
+    line-height: 2;
+    margin: 0;
+}
+
+footer .left {
+    border-right: 1px dotted #EED620;
+}
+
+footer .right-bottom {
+    text-align: center;
+}
+
+footer .right-bottom span {
+    display: block;
+    color: #EED620;
+}
+
+footer .right-bottom form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .right-bottom .box {
+    position: relative;
+    width: 45%;
+}
+
+footer .right-bottom input {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #f8d210;
+    border-radius: 50px;
+    background-color: #ADCBB1;
+    width: 100%;
+    height: 100%;
+}
+
+footer .right-bottom button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    outline: none;
+    border: none;
+    background-color: #EED620;
+    color: #04600C;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
 
 /* =========================================
    5. RESPONSIVE (MOBILE / TABLET OVERRIDES)
