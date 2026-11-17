@@ -353,6 +353,18 @@ nav {
     align-items: center;
 }
 
+select:has(option[value=""]:checked) {
+    color: #6c757d;
+}
+
+select option {
+    color: #212529;
+}
+
+select option:disabled {
+    color: #adb5bd;
+}
+
 .reservation button {
     outline: none;
     border: none;
@@ -684,6 +696,10 @@ footer .right-bottom button {
         padding: 50px 10px;
     }
 
+    h2 {
+        font-size: 40px;
+    }
+
 
     /* --- Header --- */
     header .logo {
@@ -705,11 +721,15 @@ footer .right-bottom button {
     }
 
     /* --- Introduction --- */
+    .introduction {
+        padding-bottom: 25px;
+    }
+    
     .description {
         text-align: center;
     }
 
-    .intro-img{
+    .intro-img {
         margin-bottom: 20px;
     }
 
@@ -717,9 +737,29 @@ footer .right-bottom button {
         justify-content: center;
     }
 
-    .description .col-md-6{
+    .description .col-md-6 {
         padding: 0;
         margin-bottom: 30px;
     }
+
+    /* Reservations */
+    .reservation {
+        background-color: #F7F1C7;
+    }
+
+    .reservation form {
+        padding: 0;
+    }
+
+    .reservation .input-area i {
+        width: 15%;
+    }
+
+    .reservation button {
+        padding: 10px 0;
+    }
+
+    /* Seasonal */
+
 
 }
