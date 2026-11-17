@@ -773,6 +773,10 @@ footer .right-bottom button {
         margin: 10px;
     }
 
+    .chef-info .info {
+        padding: 30px 20px;
+    }
+
     /* Food Lovers */
 
     .food-lovers {
