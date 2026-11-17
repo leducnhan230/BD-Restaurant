@@ -796,4 +796,16 @@ footer .right-bottom button {
         font-size: 30px;
     }
 
+    /* Contact */
+    .contact {
+        padding: 50px 20px;
+    }
+
+    .contact .info {
+        text-align: center;
+    }
+
+    .contact button{
+        width: 100%;
+    }
 }
