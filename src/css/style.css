@@ -246,6 +246,14 @@ nav {
     display: flex;
 }
 
+.introduction .icons a {
+    margin-right: 5px;
+}
+
+.introduction .icons a:last-child {
+    margin-right: 0;
+}
+
 .introduction .icons i {
     width: 40px;
     height: 40px;
@@ -256,16 +264,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5px;
-}
-
-.introduction .icons i:first-child {
-    margin-left: 0;
+    margin-right: 5px;
 }
 
 .introduction .icons i:last-child {
     margin-right: 0;
 }
+
 
 .introduction article {
     padding: 30px;
@@ -425,11 +430,11 @@ nav {
     justify-content: center;
 }
 
-.chef-info .icons a{
+.chef-info .icons a {
     margin-right: 5px;
 }
 
-.chef-info .icons a:last-child{
+.chef-info .icons a:last-child {
     margin-right: 0;
 }
 
