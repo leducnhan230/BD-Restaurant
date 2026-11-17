@@ -688,6 +688,13 @@ footer .right-bottom button {
    ========================================= */
 
 @media (max-width: 768px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
     .container-lg {
         padding: 0;
     }
@@ -732,6 +739,7 @@ footer .right-bottom button {
 
     .intro-img {
         margin-bottom: 20px;
+        padding: 0 10px;
     }
 
     .icons {
