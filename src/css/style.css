@@ -131,7 +131,7 @@ header .carousel-caption {
 
 header .carousel-caption h2 {
     color: #EED620;
-    font-size: 70px;
+    font-size: 65px;
 }
 
 header .carousel-caption p {
@@ -159,8 +159,12 @@ header .carousel-control-next {
 }
 
 /* ---Navbar --- */
-.navbar {
+.navbar-desktop {
     padding: 0 0 5px 0;
+}
+
+.nav-bar{
+    width: 100%;
 }
 
 nav {
@@ -184,12 +188,12 @@ nav {
     background-color: #EED620;
 }
 
-.navbar .main-menu>li>a {
+.navbar-desktop .main-menu>li>a {
     display: block;
     color: #EED620;
 }
 
-.navbar .main-menu>li:hover>a {
+.navbar-desktop .main-menu>li:hover>a {
     color: #04600C;
 }
 
@@ -215,12 +219,12 @@ nav {
     background-color: #EED620;
 }
 
-.navbar .sub-menu>li>a {
+.navbar-desktop .sub-menu>li>a {
     display: block;
     color: #000;
 }
 
-.navbar .sub-menu>li:hover>a {
+.navbar-desktop .sub-menu>li:hover>a {
     color: #04600C;
 }
 
@@ -724,8 +728,28 @@ footer .right-bottom button {
         font-size: 18px;
     }
 
-    .navbar {
-        display: none;
+    .navbar-mobile {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 101;
+
+        background-color: #04600C;
+        color: #fff;
+        border-radius: 50%;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-mobile i {
+        width: 100%;
+        height: 100%;
+        font-size: 23px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* --- Introduction --- */
